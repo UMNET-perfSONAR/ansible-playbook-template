@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This is an Ansible inventory file in INI format. You can define a list of
 # hosts and groups to be managed by this particular inventory.
 #
@@ -10,8 +9,8 @@
 # ansible all -m ping --ask-become-pass
 
 [all:vars]
-ansible_become=True
-ansible_become_user=root
+#ansible_become=True
+#ansible_become_user=root
 #ansible_become_method=su
 
-[group_name]
+[template_hosts]

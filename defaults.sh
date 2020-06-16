@@ -9,7 +9,8 @@ else
   directory=$1
 fi
 
-mkdir -p $directory/group_vars/all
+mkdir -p $directory/group_vars/all/
+mkdir -p $directory/group_vars/all/template
 mkdir -p $directory/host_vars/localhost
 
 # XXX
